@@ -7,11 +7,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication
+/*@SpringBootApplication
 @ComponentScan(basePackages = {"com"})
 @EntityScan(basePackages = {"com.beanfiles"})
 @EnableJpaRepositories("com.repositories")
-@EnableAspectJAutoProxy
+@EnableAspectJAutoProxy*/
 public class Main {
 	public static void main(String[] args) {
 		SpringApplication.run(Main.class, args);
